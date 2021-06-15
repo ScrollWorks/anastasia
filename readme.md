@@ -38,3 +38,22 @@ Hazlo en el fichero `indiceIgualValor.js`, dentro de la función `indiceIgualVal
 
 No elimines ni modifiques esta línea, ya que es necesaria para los tests `module.exports = indiceIgualValor;`
 
+### 4. - cadenaMasLarga
+Crea una función que recibe como parámetro un array de cadenas y que devuelva aquella cadena que tiene más carácteres. Si hay más de una cadena con el mismo número de carácteres que la que más tiene, se devolverá la que aparezca última en el array.
+
+Es decir, `cadenaMasLarga(["hola", "anastasia", "como", "estas"])` devolverá `"anastasia"`, y  `cadenaMasLarga(["a", "bb", "c", "dd"])` devolverá `"dd"`.
+
+Hazlo en el fichero `cadenaMasLarga.js`, dentro de la función `cadenaMasLarga` que ya está definida en ese archivo. Tienes que añadirle los parámetros que necesite y el código.
+
+No elimines ni modifiques esta línea, ya que es necesaria para los tests `module.exports = cadenaMasLarga;`
+
+
+### 5. - sumaParesImpares
+Crea una función que recibe como parámetro un array de números y que devuelva un objetos con dos propiedades, una llamada "pares", que contendra la suma de los números pares del array, y otra llamada "impares", que contendrá la suma de los números impares del array. 
+
+Es decir, `sumaParesImpares([1,2,3,4,5,6,7,8,9])` devolverá `{pares: 20, impares: 25}`.
+
+Hazlo en el fichero `sumaParesImpares.js`, dentro de la función `sumaParesImpares` que ya está definida en ese archivo. Tienes que añadirle los parámetros que necesite y el código.
+
+No elimines ni modifiques esta línea, ya que es necesaria para los tests `module.exports = sumaParesImpares;`
+
