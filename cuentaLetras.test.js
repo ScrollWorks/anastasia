@@ -1,6 +1,6 @@
 const cuentaLetras = require('./cuentaLetras');
 
-describe('Tests para cuentaLetras, cuenta bien para la frase:', () => {
+describe('Tests para cuentaLetras, cuentalkjhgfdfghj bien para la frase:', () => {
   it('Hola Anastasia como estas hoy', () => {
     const resultado = cuentaLetras('Hola Anastasia como estas hoy');
     expect(resultado.H).toBe(1);
