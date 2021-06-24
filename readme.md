@@ -57,3 +57,19 @@ Hazlo en el fichero `sumaParesImpares.js`, dentro de la función `sumaParesImpar
 
 No elimines ni modifiques esta línea, ya que es necesaria para los tests `module.exports = sumaParesImpares;`
 
+### 6. - eliminaDuplicados
+Crea una función que recibe como parámetro un array de números y que devuelva otro array en el que haya un valor por cada valor distinto que hubiera en el array de entrada y en el que no haya valores duplicados. 
+
+Es decir, `eliminaDuplicados([1,4,3,4,5,4,4,2,5])` devolverá `[1,4,3,5,2]`.
+Es decir, `eliminaDuplicados([1,2,3])` devolverá `[1,2,3]`.
+
+### 7. - mediaSumaMaxMin
+Crea una función que recibe como parámetro un array de números y que devuelva un objeto que contenga: 
+* una propiedad `suma` cuyo valor será la suma de todos los numeros del array
+* una propiedad `max` cuyo valor sera el número más grande del array de entrada
+* una propiedad `min` cuyo valor será el número más pequeño del array de entrada
+* una propiedad `media` cuyo valor será la media de todos los números del array.
+
+Es decir, `mediaSumaMaxMin([1,2,3,4,5])` devolverá `{suma: 15, max: 5, min: 1, media: 3}`.
+
+Intenta hacerlo con reduce 😏😏
