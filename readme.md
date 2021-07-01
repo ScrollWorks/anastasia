@@ -73,3 +73,36 @@ Crea una función que recibe como parámetro un array de números y que devuelva
 Es decir, `mediaSumaMaxMin([1,2,3,4,5])` devolverá `{suma: 15, max: 5, min: 1, media: 3}`.
 
 Intenta hacerlo con reduce 😏😏
+
+### 7. - sumaRestaArrays
+Crea una función que recibe como parámetro dos arrays de números y un string que indica la operación. Si el string es "suma", devolverá un array con la suma de los numeros de los arrays recibidos como parámetro, si el string es "resta", devolverá un array con la resta de los números de los arrays recibidos como parámetro.
+
+Es decir, `sumaRestaArrays([5,6,4,3], [1,1,2,2], "suma")` devolverá `[6,7,6,5]`.
+Es decir, `sumaRestaArrays([5,6,4,3], [1,1,2,2], "resta")` devolverá `[4,5,2,1]`.
+
+### 8. - adivinaLosLogs
+Mira el código del fichero "adivinaLosLogs.js" y antes de ejecutarlo, intenta adivinar que verás en la consola para cada uno de los puntos.
+
+Y si al ejecutarlo no te coincide, tienes que desatraparte y entender por qué. 
+**Este ejercicio no tiene tests.**
+
+### 9. - Animal.js
+Crea una clase "Animal" que cree objetos que tengan los siguientes métodos:
+* `getName()` - devuelve el nombre del animal
+* `getAge()` - devuelve la edad del animal
+
+Tanto la edad como el nombre, se pasarán al constructor de la clase "Animal".
+
+Es decir:
+```
+  const Lara = new Animal("Lara", "3");
+  console.log('el nombre es:', Lara.getName());
+  console.log('la edad es:', Lara.getAge());
+```
+Deberia de imprimir :
+```
+el nombre es: Lara
+la edad es: 3
+```
+
+Crea la clase en el fichero `Animal.js`, y expórtala para que pasen los tests.
