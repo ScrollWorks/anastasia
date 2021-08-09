@@ -106,3 +106,77 @@ la edad es: 3
 ```
 
 Crea la clase en el fichero `Animal.js`, y expórtala para que pasen los tests.
+
+### 10. - Loro.js & Lobo.js
+Crea una clase "Loro" que cree objetos que tengan los siguientes métodos:
+* `getName()` - devuelve el nombre del animal
+* `getAge()` - devuelve la edad del animal
+* `fly()` - devuelve una cadena que contenga "flap flap mira como vuelo"
+
+
+Crea una clase "Lobo" que cree objetos que tengan los siguientes métodos:
+* `getName()` - devuelve el nombre del animal
+* `getAge()` - devuelve la edad del animal
+* `howl()` - devuelve una cadena que contenga "aaauuuuuuuuuuuuuuuuuuuuu"
+
+Los métodos getName() y getAge() son iguales que los que implementaste en la clase animal,
+así que en vez de repetirlos, haz que las clases Loro y Lobo hereden de la clase animal.
+
+Es decir:
+```
+  const Lara = new Loro("Lara", "3");
+  console.log('el nombre es:', Lara.getName());
+  console.log('la edad es:', Lara.getAge());
+  console.log('el ruido que hace al volar es:', Lara.fly());
+```
+Deberia de imprimir :
+```
+el nombre es: Lara
+la edad es: 3
+el ruido que hace al volar es: flap flap mira como vuelo
+```
+
+Si intentamos hacer Lara.howl(), recibiremos un error, ya que los loros no aullan.
+
+Por otro lado podremos crear un objeto Lobo:
+```
+  const LaLoba = new Loro("LaLoba", "5");
+  console.log('el nombre es:', LaLoba.getName());
+  console.log('la edad es:', LaLoba.getAge());
+  console.log('el ruido que hace al aullar es:', LaLoba.howl());
+```
+Deberia de imprimir :
+```
+el nombre es: Lara
+la edad es: 3
+el ruido que hace al aullar es: aaauuuuuuuuuuuuuuuuuuuuu
+```
+
+Si intentamos hacer LaLoba.fly(), recibiremos un error, ya que los lobos no vuelan.
+
+Crea la clase en los ficheros `Loro.js` y `Lobo.js`, y expórtalas para que pasen los tests.
+
+### 11. - invierteArrays
+Crea una funcion que invierta el orden de los elementos de un array **sin utilizar la funcion predefinida .reverse()**.
+
+Es decir:
+```
+  console.log(invierteArrays([1,2,3,4,5,6,7]));
+```
+Deberia de imprimir :
+```
+[7,6,5,4,3,2,1]
+```
+
+Crea la clase en los ficheros `invierteArrays.js`, y expórtalas para que pasen los tests.
+
+### 12. - juego abecedario
+Termina el javascript en el fichero juego.html para que al abrirlo con un navegador, 
+te muestre el tiempo que pasa desde que pulsas el boton reset hasta que escribes todo el abecedario.
+
+Da igual aunque no entiendas todo el javascript, la funcion que tienes que escribir es `abecedarioEstaCompleto`,
+que como veras esta vacia en el html.
+
+Cuando lo hayas completado y funcione ,que es facil, intenta entender el resto del codigo.
+
+Por cierto, que sepas que mi record es *"Muy bien! has tardado **5.606** segundos"*
