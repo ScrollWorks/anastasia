@@ -180,3 +180,28 @@ que como veras esta vacia en el html.
 Cuando lo hayas completado y funcione ,que es facil, intenta entender el resto del codigo.
 
 Por cierto, que sepas que mi record es *"Muy bien! has tardado **5.606** segundos"*
+
+### 13. - doubleIndex
+Crea una funcion que recibe un array y un índice y devuelva el elemento resultando de indexar el array con el valor resultante de indexarlo con el parámetro.
+
+Es decir:
+```
+  console.log(doubleIndex([5,4,2,6,9,8,7,1,2,3], 5));
+```
+Deberia de imprimir : `2`.
+
+Ya que al indexar el array con el numero 5, obtenemos el 8, y al indexar el array con el 8, obtenemos el dos. 
+(indexar un array con un numero es acceder al elemento del array que se encuentra en la posición que marca el número)
+
+Crea la funcion en el fichero `doubleIndex.js`, y expórtalas para que pasen los tests.
+
+### 13. - buscaIndices
+Crea una funcion que recibe un array y un valor, y devuelva un nuevo array con los índices en los que se encuentra ese valor.
+
+Es decir:
+```
+  console.log(buscaIndices([5,4,2,6,9,8,7,1,2,3], 2));
+```
+Deberia de imprimir : `[2,8]`.
+
+Crea la funcion en el fichero `buscaIndices.js`, y expórtalas para que pasen los tests.
